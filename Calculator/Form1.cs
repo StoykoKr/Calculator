@@ -326,6 +326,7 @@ namespace Calculator
         {
             screen.Clear();
             ghostScreen.Clear();
+            FirstNum = false;
             AppendToScreen("0");
             FirstNum = true;
         }
